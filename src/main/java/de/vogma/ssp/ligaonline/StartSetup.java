@@ -61,7 +61,7 @@ public class StartSetup {
             System.out.println("Persistiere Daten...");
             persistData();
         } catch (Exception ex) {
-            ex.printStackTrace();
+            System.err.println("ERROR: "+ex.getLocalizedMessage());
         }
     }
 
@@ -86,7 +86,7 @@ public class StartSetup {
         PersistenceManager.persistTeams(teams);
         PersistenceManager.persistPlayer(player);
         PersistenceManager.persistMatches(matches);
-        //PersistenceManager.persistGoals(goals);
+        PersistenceManager.persistGoals(goals);
     }
 
     private static void parseXML() throws SAXException, IOException, ParserConfigurationException {
