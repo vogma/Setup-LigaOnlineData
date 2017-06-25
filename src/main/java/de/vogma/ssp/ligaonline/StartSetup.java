@@ -5,8 +5,9 @@ import de.vogma.ssp.ligaonline.entitys.Match;
 import de.vogma.ssp.ligaonline.entitys.Player;
 import de.vogma.ssp.ligaonline.entitys.Stadion;
 import de.vogma.ssp.ligaonline.entitys.Team;
+import de.vogma.ssp.ligaonline.manager.ConnectionManager;
 import de.vogma.ssp.ligaonline.manager.PersistenceManager;
-import de.vogma.ssp.ligaonline.manager.ScriptRunner;
+import de.vogma.ssp.ligaonline.manager.DataBaseInitiator;
 import de.vogma.ssp.ligaonline.xmlparser.GoalParser;
 import de.vogma.ssp.ligaonline.xmlparser.MatchParser;
 import de.vogma.ssp.ligaonline.xmlparser.PlayerParser;
@@ -24,9 +25,9 @@ import java.sql.SQLException;
 import java.util.List;
 
 import javax.xml.parsers.ParserConfigurationException;
-import manager.ConnectionManager;
-
 import org.xml.sax.SAXException;
+
+
 
 public class StartSetup {
 
@@ -151,9 +152,9 @@ public class StartSetup {
 
     private static void runDatabaseSetupScript() throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException, FileNotFoundException, IOException {
         try (Connection connection = ConnectionManager.getConnection()) {
-            ScriptRunner scriptRunner = new ScriptRunner(connection,false, true);
+            DataBaseInitiator scriptRunner = new DataBaseInitiator(connection,false);
             Reader reader = new BufferedReader(new InputStreamReader(StartSetup.class.getResourceAsStream("/database/init.sql")));
-            scriptRunner.runScript(reader);
+            scriptRunner.startInit(reader);
         }
     }
 
