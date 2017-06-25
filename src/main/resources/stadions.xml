@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- To change this license header, choose License Headers in Project Properties. 
+	To change this template file, choose Tools | Templates and open the template 
+	in the editor. -->
+
+<Stadions>
+	<Stadion>
+		<stadionID>1</stadionID>
+		<teamName>Hamburger SV</teamName>
+		<stadionName>Volksparkstadion</stadionName>
+		<stadionGPS>53.587128, 9.8986</stadionGPS>
+		<stadionAddress>Sylvesterallee 7, 22525 Hamburg</stadionAddress>
+		<stadionImageURL>https://upload.wikimedia.org/wikipedia/commons/d/de/RK_1009_9831_Volksparkstadion.jpg
+		</stadionImageURL>
+		<stadionCapacity>57000</stadionCapacity>
+		<teamID>100</teamID>
+	</Stadion>
+	<Stadion>
+		<stadionID>2</stadionID>
+		<teamName>FC Schalke 04</teamName>
+		<stadionName>Veltins-Arena</stadionName>
+		<stadionGPS>51° 33′ 16,1″ N, 7° 4′ 3,5″ O</stadionGPS>
+		<stadionAddress>Arenaring 1, 45891 Gelsenkirchen</stadionAddress>
+		<stadionImageURL>https://upload.wikimedia.org/wikipedia/commons/0/0d/Veltins-arena-2016.jpg
+		</stadionImageURL>
+		<stadionCapacity>54740</stadionCapacity>
+		<teamID>9</teamID>
+	</Stadion>
+	<Stadion>
+		<stadionID>3</stadionID>
+		<teamName>Borussia Dortmund</teamName>
+		<stadionName>Signal Iduna Park</stadionName>
+		<stadionGPS>51° 29′ 33″ N, 7° 27′ 6″ O</stadionGPS>
+		<stadionAddress>Strobelallee 50 44139 Dortmund</stadionAddress>
+		<stadionImageURL>https://upload.wikimedia.org/wikipedia/commons/0/02/Signal_Iduna_Park_new_sign.jpg
+		</stadionImageURL>
+		<stadionCapacity>81360</stadionCapacity>
+		<teamID>7</teamID>
+	</Stadion>
+	<Stadion>
+		<stadionID>4</stadionID>
+		<teamName>Bayer 04 Leverkusen</teamName>
+		<stadionName>BayArena</stadionName>
+		<stadionGPS>51° 2′ 17″ N, 7° 0′ 7″ O</stadionGPS>
+		<stadionAddress>Bismarckstraße 122-124, 51373 Leverkusen
+		</stadionAddress>
+		<stadionImageURL>https://upload.wikimedia.org/wikipedia/commons/c/c2/BayArena_neu_2009.jpg
+		</stadionImageURL>
+		<stadionCapacity>30210</stadionCapacity>
+		<teamID>6</teamID>
+	</Stadion>
+	<Stadion>
+		<stadionID>5</stadionID>
+		<teamName>Bayern München</teamName>
+		<stadionName>Allianz Arena</stadionName>
+		<stadionGPS>48° 13′ 7″ N, 11° 37′ 28″ O</stadionGPS>
+		<stadionAddress>Werner-Heisenberg-Allee 25, 80939 München
+		</stadionAddress>
+		<stadionImageURL>https://upload.wikimedia.org/wikipedia/commons/d/d5/Allianz_arena_daylight_Richard_Bartz.jpg
+		</stadionImageURL>
+		<stadionCapacity>75021</stadionCapacity>
+		<teamID>40</teamID>
+	</Stadion>
+	<Stadion>
+		<stadionID>6</stadionID>
+		<teamName>VfL Wolfsburg</teamName>
+		<stadionName>Volkswagen Arena</stadionName>
+		<stadionGPS>52° 25′ 55″ N, 10° 48′ 14″ O</stadionGPS>
+		<stadionAddress>In den Allerwiesen 1, 38446 Wolfsburg</stadionAddress>
+		<stadionImageURL>https://upload.wikimedia.org/wikipedia/commons/9/9a/VW-Arena_%28Panorama%29.jpg
+		</stadionImageURL>
+		<stadionCapacity>30000</stadionCapacity>
+		<teamID>131</teamID>
+	</Stadion>
+	<Stadion>
+		<stadionID>7</stadionID>
+		<teamName>VfB Stuttgart</teamName>
+		<stadionName>Mercedes-Benz Arena</stadionName>
+		<stadionGPS>48° 47′ 32″ N, 9° 13′ 55″ O</stadionGPS>
+		<stadionAddress>Mercedes-Platz 1, 10243 Berlin</stadionAddress>
+		<stadionImageURL>https://upload.wikimedia.org/wikipedia/commons/5/52/Blick_vom_Rotenberg_Stadion.jpg
+		</stadionImageURL>
+		<stadionCapacity>60449</stadionCapacity>
+		<teamID>16</teamID>
+	</Stadion>
+	<Stadion>
+		<stadionID>8</stadionID>
+		<teamName>Werder Bremen</teamName>
+		<stadionName>Weserstadion</stadionName>
+		<stadionGPS>53° 3′ 59″ N, 8° 50′ 15,5″ O</stadionGPS>
+		<stadionAddress>Franz-Böhmert-Straße 1, 28205 Bremen</stadionAddress>
+		<stadionImageURL>https://upload.wikimedia.org/wikipedia/commons/7/76/2012-08-08-fotoflug-bremen_zweiter_flug_0398.JPG
+		</stadionImageURL>
+		<stadionCapacity>42500</stadionCapacity>
+		<teamID>134</teamID>
+	</Stadion>
+	<Stadion>
+		<stadionID>9</stadionID>
+		<teamName>Borussia Mönchengladbach</teamName>
+		<stadionName>Borussia-Park</stadionName>
+		<stadionGPS>51° 10′ 28″ N, 6° 23′ 8″ O</stadionGPS>
+		<stadionAddress>Hennes-Weisweiler-Allee 1, 41179 Mönchengladbach
+		</stadionAddress>
+		<stadionImageURL>https://upload.wikimedia.org/wikipedia/commons/f/f7/Stadion_Gladbach.jpg
+		</stadionImageURL>
+		<stadionCapacity>54014</stadionCapacity>
+		<teamID>87</teamID>
+	</Stadion>
+	<Stadion>
+		<stadionID>10</stadionID>
+		<teamName>Hannover 96</teamName>
+		<stadionName>AWD-Arena</stadionName>
+		<stadionGPS>52° 21′ 36″ N, 9° 43′ 52″ O</stadionGPS>
+		<stadionAddress>Robert-Enke-Straße 1, 30169 Hannover</stadionAddress>
+		<stadionImageURL>https://upload.wikimedia.org/wikipedia/commons/9/98/2013-08-28_HDI-Arena_Hannover_1.jpg
+		</stadionImageURL>
+		<stadionCapacity>49200</stadionCapacity>
+		<teamID>55</teamID>
+	</Stadion>
+	<Stadion>
+		<stadionID>11</stadionID>
+		<teamName>SC Freiburg</teamName>
+		<stadionName>Mage Solar Stadion</stadionName>
+		<stadionGPS>47° 59′ 20″ N, 7° 53′ 35″ O</stadionGPS>
+		<stadionAddress>Schwarzwaldstraße 193, 79117 Freiburg im Breisgau
+		</stadionAddress>
+		<stadionImageURL>https://upload.wikimedia.org/wikipedia/commons/3/3f/Badenova-Stadion_Nord-Osten.JPG
+		</stadionImageURL>
+		<stadionCapacity>24000</stadionCapacity>
+		<teamID>112</teamID>
+	</Stadion>
+	<Stadion>
+		<stadionID>12</stadionID>
+		<teamName>FC Augsburg</teamName>
+		<stadionName>SGL Arena</stadionName>
+		<stadionGPS>48° 19′ 23,3″ N, 10° 53′ 9,6″ O</stadionGPS>
+		<stadionAddress>Bürgermeister-Ulrich-Straße 90, 86199 Augsburg
+		</stadionAddress>
+		<stadionImageURL>https://upload.wikimedia.org/wikipedia/commons/4/42/Augsburg_Stadium%2C_Germany_%289655832783%29.jpg
+		</stadionImageURL>
+		<stadionCapacity>26160</stadionCapacity>
+		<teamID>95</teamID>
+	</Stadion>
+	<Stadion>
+		<stadionID>13</stadionID>
+		<teamName>Eintracht Frankfurt</teamName>
+		<stadionName>Commerzbank-Arena</stadionName>
+		<stadionGPS>50° 4′ 7″ N, 8° 38′ 43″ O</stadionGPS>
+		<stadionAddress>Mörfelder Landstraße 362, 60528 Frankfurt am Main
+		</stadionAddress>
+		<stadionImageURL>https://upload.wikimedia.org/wikipedia/commons/0/08/130919-Commerzbank-Arena-Europa-League.jpg
+		</stadionImageURL>
+		<stadionCapacity>48000</stadionCapacity>
+		<teamID>91</teamID>
+	</Stadion>
+	<Stadion>
+		<stadionID>14</stadionID>
+		<teamName>Fortuna Düsseldorf</teamName>
+		<stadionName>ESPRIT Arena</stadionName>
+		<stadionGPS>51° 15′ 41,5″ N, 6° 43′ 59,1″ O</stadionGPS>
+		<stadionAddress>Arena-Straße 1, 40474 Düsseldorf</stadionAddress>
+		<stadionImageURL>https://upload.wikimedia.org/wikipedia/commons/f/f8/ESPRIT_arena_in_Duesseldorf-Stockum%2C_von_Sueden.jpg
+		</stadionImageURL>
+		<stadionCapacity>54600</stadionCapacity>
+		<teamID>185</teamID>
+	</Stadion>
+	<Stadion>
+		<stadionID>15</stadionID>
+		<teamName>1. FC Nürnberg</teamName>
+		<stadionName>Grundig Stadion</stadionName>
+		<stadionGPS>49° 25′ 35″ N, 11° 7′ 33″ O</stadionGPS>
+		<stadionAddress>Max-Morlock-Platz 1, 90471 Nürnberg</stadionAddress>
+		<stadionImageURL>https://upload.wikimedia.org/wikipedia/commons/a/ab/Easy-Credit_Stadion_2008.jpg
+		</stadionImageURL>
+		<stadionCapacity>50000</stadionCapacity>
+		<teamID>79</teamID>
+	</Stadion>
+	<Stadion>
+		<stadionID>16</stadionID>
+		<teamName>1. FSV Mainz 05</teamName>
+		<stadionName>Bruchwegstadion</stadionName>
+		<stadionGPS>50° 0′ 3″ N, 8° 14′ 44″ O</stadionGPS>
+		<stadionAddress>Dr.-Martin-Luther-King-Weg, 55122 Mainz
+		</stadionAddress>
+		<stadionImageURL>https://upload.wikimedia.org/wikipedia/commons/9/95/BrugweckStadion.jpg
+		</stadionImageURL>
+		<stadionCapacity>18000</stadionCapacity>
+		<teamID>81</teamID>
+	</Stadion>
+	<Stadion>
+		<stadionID>17</stadionID>
+		<teamName>SpVgg Greuther Fuerth</teamName>
+		<stadionName>Trolli Arena</stadionName>
+		<stadionGPS>49° 29′ 13″ N, 10° 59′ 57″ O</stadionGPS>
+		<stadionAddress>Laubenweg 60, 90765 Fürth</stadionAddress>
+		<stadionImageURL>https://upload.wikimedia.org/wikipedia/commons/8/8f/Trolli_Arena_F%C3%BCrth_2011.jpg
+		</stadionImageURL>
+		<stadionCapacity>18000</stadionCapacity>
+		<teamID>115</teamID>
+	</Stadion>
+	<Stadion>
+		<stadionID>18</stadionID>
+		<teamName>TSG 1899 Hoffenheim</teamName>
+		<stadionName>Rhein-Neckar Arena</stadionName>
+		<stadionGPS>49° 14′ 16,9″ N, 8° 53′ 15,6″ O</stadionGPS>
+		<stadionAddress>Dietmar-Hopp-Straße 1, 74889 Sinsheim</stadionAddress>
+		<stadionImageURL>https://upload.wikimedia.org/wikipedia/commons/5/5e/Sinsheim_Rhein-Neckar-Arena.JPG
+		</stadionImageURL>
+		<stadionCapacity>25641</stadionCapacity>
+		<teamID>123</teamID>
+	</Stadion>
+</Stadions>

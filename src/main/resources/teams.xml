@@ -1,0 +1,644 @@
+<GetTeamsByLeagueSaisonResult>
+  <Team>
+     <teamID>100</teamID>
+     <teamName>Hamburger SV</teamName>
+     <teamIconURL>http://www.openligadb.de/images/teamicons/Hamburger_SV.gif</teamIconURL>
+     <stadion>Imtech Arena</stadion>
+     <player>Jaroslav Drobny</player>
+     <player>Rene Adler</player>
+     <player>Sven Neuhaus</player>
+     <player>Dennis Diekmeier</player>
+     <player>Michael Mancienne</player>
+     <player>Heiko Westermann</player>
+     <player>Jeffrey Bruma</player>
+     <player>Marcell Jansen</player>
+     <player>Zhi Gin Lam</player>
+     <player>Slobodan Rajkovic</player>
+     <player>Janek Sternberg</player>
+     <player>Dennis Aogo</player>
+     <player>Tomas Rincon</player>
+     <player>Milan Badelj</player>
+     <player>Ivo Ilicevic</player>
+     <player>Tolgay Arslan</player>
+     <player>Petr Jiracek</player>
+     <player>Jacopo Sala</player>
+     <player>Rafael van der Vaart</player>
+     <player>Per Skjelbred</player>
+     <player>Christian Nörgaard</player>
+     <player>Gojko Kacar</player>
+     <player>Artjoms Rudnevs</player>
+     <player>Marcus Berg</player>
+     <player>Maximilian Beister</player>
+     <player>Heung Min Son</player>
+  </Team>
+  <Team>
+     <teamID>9</teamID>
+     <teamName>FC Schalke 04</teamName>
+     <teamIconURL>http://www.openligadb.de/images/teamicons/FC_Schalke_04.gif</teamIconURL>
+     <stadion>Veltins-Arena</stadion>
+     <player>Ralf Fährmann</player>
+     <player>Timo Hildebrand</player>
+     <player>Lars Unnerstall</player>
+     <player>Benedikt Höwedes</player>
+     <player>Kyriakos Papadopoulos</player>
+     <player>Christoph Metzelder</player>
+     <player>Joel Matip</player>
+     <player>Sead Kolasinac</player>
+     <player>Christian Fuchs</player>
+     <player>Atsuto Uchida</player>
+     <player>Marco Höger</player>
+     <player>Jermaine Jones</player>
+     <player>Christoph Moritz</player>
+     <player>Roman Neustädter</player>
+     <player>Raffael</player>
+     <player>Max Meyer</player>
+     <player>Michel Bastos</player>
+     <player>Ibrahim Afellay</player>
+     <player>Tranquillo Barnetta</player>
+     <player>René Klingenburg</player>
+     <player>Julian Draxler</player>
+     <player>Jefferson Farfán</player>
+     <player>Chinedu Obasi</player>
+     <player>Ciprian Marica</player>
+     <player>Edú</player>
+     <player>Teemu Pukki</player>
+     <player>Klaas-Jan Huntelaar</player>
+  </Team>
+  <Team>
+     <teamID>7</teamID>
+     <teamName>Borussia Dortmund</teamName>
+     <teamIconURL>http://www.openligadb.de/images/teamicons/Borussia_Dortmund.gif</teamIconURL>
+     <stadion>Westfalenstadion</stadion>
+     <player>Roman Weidenfeller</player>
+     <player>Mitchell Langerak</player>
+     <player>Zlatan Alomerovic</player>
+     <player>Neven Subotic</player>
+     <player>Mats Hummels</player>
+     <player>Felipe Santana</player>
+     <player>Koray Günter</player>
+     <player>Marcel Schmelzer</player>
+     <player>Marc Hornschuh</player>
+     <player>Oliver Kirch</player>
+     <player>Patrick Owomoyela</player>
+     <player>Lukasz Piszczek</player>
+     <player>Sebastian Kehl</player>
+     <player>Sven Bender</player>
+     <player>Marvin Bakalorz</player>
+     <player>Moritz Leitner</player>
+     <player>Ilkay Gündogan</player>
+     <player>Nuri Sahin</player>
+     <player>Mario Götze</player>
+     <player>Marco Reus</player>
+     <player>Mustafa Amini</player>
+     <player>Leonardo Bittencourt</player>
+     <player>Kevin Großkreutz</player>
+     <player>Jakub Blaszczykowski</player>
+     <player>Jonas Hofmann</player>
+     <player>Robert Lewandowski</player>
+     <player>Julian Schieber</player>
+     <player>Bálint Bajner</player>
+  </Team>
+  <Team>
+     <teamID>6</teamID>
+     <teamName>Bayer 04 Leverkusen</teamName>
+     <teamIconURL>http://www.openligadb.de/images/teamicons/Bayer_Leverkusen.gif</teamIconURL>
+     <stadion>BayArena</stadion>
+     <player>Leno, Bernd</player>
+     <player>Yelldell, David</player>
+     <player>Rensing, Michael</player>
+     <player>Lomb, Niklas</player>
+     <player>Wollscheid, Philipp</player>
+     <player>Friedrich, Manuel</player>
+     <player>Toprak, Ömer</player>
+     <player>Boenisch, Sebastian</player>
+     <player>Kadlec, Michal</player>
+     <player>Schwaab, Daniel</player>
+     <player>Carvajal, Daniel</player>
+     <player>Reinartz, Stefan</player>
+     <player>Rolfes, Simon</player>
+     <player>Bender, Lars</player>
+     <player>Hosogai, Hajime</player>
+     <player>Kohr, Dominik</player>
+     <player>Hegeler, Jens</player>
+     <player>Zenga, Erik</player>
+     <player>Pusch, Kolja</player>
+     <player>Castro, Gonzalo</player>
+     <player>Aydin, Okan</player>
+     <player>Sam, Sidney</player>
+     <player>Bellarabi, Karim</player>
+     <player>Schürrle, André</player>
+     <player>Fernándes, Junior</player>
+     <player>Kießling, Stefan</player>
+     <player>Milik, Arkadiusz</player>
+     <player>Steffen, Tobias</player>
+  </Team>
+  <Team>
+     <teamID>40</teamID>
+     <teamName>Bayern München</teamName>
+     <teamIconURL>http://www.openligadb.de/images/teamicons/Bayern_Muenchen.gif</teamIconURL>
+     <stadion>Allianz Arena</stadion>
+     <player>Manuel Neuer</player>
+     <player>Lukas Raeder</player>
+     <player>Maximilian Riedmüller</player>
+     <player>Tom Starke</player>
+     <player>David Alaba</player>
+     <player>Holger Badstuber</player>
+     <player>Jérôme Boateng</player>
+     <player>Diego Contento</player>
+     <player>Dante</player>
+     <player>Philipp Lahm</player>
+     <player>Rafinha</player>
+     <player>Daniel Van Buyten</player>
+     <player>Emre Can</player>
+     <player>Javi Martinez</player>
+     <player>Toni Kroos</player>
+     <player>Luiz Gustavo</player>
+     <player>Franck Ribéry</player>
+     <player>Bastian Schweinsteiger</player>
+     <player>Xherdan Shaqiri</player>
+     <player>Anatoliy Tymoshchuk</player>
+     <player>Mario Gómez</player>
+     <player>Mario Mandžukić</player>
+     <player>Thomas Müller</player>
+     <player>Claudio Pizarro</player>
+     <player>Arjen Robben</player>
+     <player>Patrick Weihrauch</player>
+  </Team>
+  <Team>
+     <teamID>131</teamID>
+     <teamName>VfL Wolfsburg</teamName>
+     <teamIconURL>http://www.openligadb.de/images/teamicons/VfL_Wolfsburg.gif</teamIconURL>
+     <stadion>Volkswagen Arena</stadion>
+     <player>Diego Benaglio</player>
+     <player>Patrick Drewes</player>
+     <player>Marwin Hitz</player>
+     <player>Marius Sauss</player>
+     <player>Fágner</player>
+     <player>Simon Kjær</player>
+     <player>Robin Knoche</player>
+     <player>Sotirios Kyrgiakos</player>
+     <player>Alexander Madlung</player>
+     <player>Naldo</player>
+     <player>Ricardo Rodríguez</player>
+     <player>Marcel Schäfer</player>
+     <player>Maximilian Arnold</player>
+     <player>Diego</player>
+     <player>Ferhan Hasani</player>
+     <player>Makoto Hasebe</player>
+     <player>Josué</player>
+     <player>Thomas Kahlenberg</player>
+     <player>Slobodan Medojević</player>
+     <player>Yohandry Orozco</player>
+     <player>Kevin Pannewitz</player>
+     <player>Ivan Perišić</player>
+     <player>Jan Polák</player>
+     <player>Christian Träsch</player>
+     <player>Bas Dost</player>
+     <player>Patrick Helmes</player>
+     <player>Ivica Olić</player>
+     <player>Václav Pilař</player>v
+     <player>Vieirinha</player>
+  </Team>
+  <Team>
+     <teamID>16</teamID>
+     <teamName>VfB Stuttgart</teamName>
+     <teamIconURL>http://www.openligadb.de/images/teamicons/VfB_Stuttgart.gif</teamIconURL>
+     <stadion>Mercedes-Benz Arena</stadion>
+     <player>Sven Ulreich</player>
+     <player>André Weis</player>
+     <player>Marc Ziegler</player>
+     <player>Arthur Boka</player>
+     <player>Felipe</player>
+     <player>Tim Hoogland</player>
+     <player>Cristian Molinaro</player>
+     <player>Georg Niedermeier</player>
+     <player>Benedikt Röcker</player>
+     <player>Antonio Rüdiger</player>
+     <player>Gōtoku Sakai</player>
+     <player>Serdar Taşçı</player>
+     <player>Johan Audel</player>
+     <player>Mamadou Bah</player>
+     <player>Daniel Didavi</player>
+     <player>Christian Gentner</player>
+     <player>Tamás Hajnal</player>
+     <player>Raphael Holzhauser</player>
+     <player>Rani Khedira</player>
+     <player>William Kvist</player>
+     <player>Alexandru Maxim</player>
+     <player>Kevin Stöger</player>
+     <player>Ibrahima Traoré</player>
+     <player>Soufian Benyamina</player>
+     <player>Cacau</player>
+     <player>Martin Harnik</player>
+     <player>Christoph Hemlein</player>
+     <player>Vedad Ibišević</player>
+     <player>Federico Macheda</player>
+     <player>Shinji Okazaki</player>
+     <player>Tunay Torun</player>
+  </Team>
+  <Team>
+     <teamID>134</teamID>
+     <teamName>Werder Bremen</teamName>
+     <teamIconURL>http://www.openligadb.de/images/teamicons/werder_bremen.gif</teamIconURL>
+     <stadion>Weserstadion</stadion>
+     <player>Sebastian Mielitz</player>
+     <player>Raphael Wolf</player>
+     <player>Richard Strebinger</player>
+     <player>Christian Vander</player>
+     <player>Mateo Pavlovic</player>
+     <player>Assani Lukimya</player>
+     <player>Lukas Schmitz</player>
+     <player>Sebastian Prödl</player>
+     <player>Sokratis</player>
+     <player>Theodor Gebre Selassie</player>
+     <player>Florian Hartherz</player>
+     <player>Cimo Röcker</player>
+     <player>Kevin De Bruyne</player>
+     <player>Clemens Fritz</player>
+     <player>Mehmet Ekici</player>
+     <player>Eljero Elia</player>
+     <player>Aaron Hunt</player>
+     <player>Zlatko Junuzovic</player>
+     <player>Aleksandar Ignjovski</player>
+     <player>Felix Kroos</player>
+     <player>Tom Trybull</player>
+     <player>Levent Aycicek</player>
+     <player>Predrag Stevanovic</player>
+     <player>Özkan Yildirim</player>
+     <player>Aleksandar Stevanovic</player>
+     <player>Philipp Bargfrede</player>
+     <player>Marko Arnautovic</player>
+     <player>Joseph Akpala</player>
+     <player>Nils Petersen</player>
+     <player>Johannes Wurtz</player>
+     <player>Niclas Füllkrug</player>
+  </Team>
+  <Team>
+     <teamID>87</teamID>
+     <teamName>Borussia Mönchengladbach</teamName>
+     <teamIconURL>http://www.openligadb.de/images/teamicons/Bor_Moenchengladbach.gif</teamIconURL>
+     <stadion>Borussia-Park</stadion>
+     <player>Janis Blaswich</player>
+     <player>Niklas Bolten</player>
+     <player>Christofer Heimeroth</player>
+     <player>Marc-André ter Stegen</player>
+     <player>Roel Brouwers</player>
+     <player>Filip Daems</player>
+     <player>Niklas Dams</player>
+     <player>Domínguez</player>
+     <player>Tony Jantschke</player>
+     <player>Martin Stranzl</player>
+     <player>Oscar Wendt</player>
+     <player>Juan Arango</player>
+     <player>Alexander Bieler</player>
+     <player>Nico Brandenburger</player>
+     <player>Tolga Ciğerci</player>
+     <player>Patrick Herrmann</player>
+     <player>Julian Korb</player>
+     <player>Thorben Marx</player>
+     <player>Håvard Nordtveit</player>
+     <player>Alexander Ring</player>
+     <player>Lukas Rupp</player>
+     <player>Granit Xhaka</player>
+     <player>Amin Younes</player>
+     <player>Luuk de Jong</player>
+     <player>Mike Hanke</player>
+     <player>Branimir Hrgota</player>
+     <player>Peniel Mlapa</player>
+  </Team>
+  <Team>
+     <teamID>55</teamID>
+     <teamName>Hannover 96</teamName>
+     <teamIconURL>http://www.openligadb.de/images/teamicons/Hannover_96.gif</teamIconURL>
+     <stadion>AWD-Arena</stadion>
+     <player>Marek Große</player>
+     <player>Marcel Klonz</player>
+     <player>Markus Miller</player>
+     <player>Samuel Radlinger</player>
+     <player>Ron-Robert Zieler</player>
+     <player>Steven Cherundolo</player>
+     <player>Johan Djourou</player>
+     <player>Mario Eggimann</player>
+     <player>Felipe</player>
+     <player>Karim Haggui</player>
+     <player>André Hoffmann</player>
+     <player>Jannik Löhden</player>
+     <player>Christian Pander</player>
+     <player>Sébastien Pocognoli</player>
+     <player>Konstantin Rausch</player>
+     <player>Hiroki Sakai</player>
+     <player>Christian Schulz</player>
+     <player>Yannik Schulze</player>
+     <player>Leon Andreasen</player>
+     <player>Deniz Aycicek</player>
+     <player>Sofian Chahed</player>
+     <player>Willi Evseev</player>
+     <player>França</player>
+     <player>Niko Gießelmann</player>
+     <player>Szabolcs Huszti</player>
+     <player>Adrian Nikçi</player>
+     <player>Jannis Pläschke</player>
+     <player>Manuel Schmiedebach</player>
+     <player>Sascha Schünemann</player>
+     <player>Sérgio da Silva Pinto</player>
+     <player>Lars Stindl</player>
+     <player>Mohammed Abdellaoue</player>
+     <player>Mame Diouf</player>
+     <player>Ali Gökdemir</player>
+     <player>Deniz Kadah</player>
+     <player>Jan Schlaudraff</player>
+     <player>Artur Sobiech</player>
+     <player>Didier Ya Konan</player>
+  </Team>
+  <Team>
+     <teamID>112</teamID>
+     <teamName>SC Freiburg</teamName>
+     <teamIconURL>http://www.openligadb.de/images/teamicons/SC_Freiburg.gif</teamIconURL>
+     <stadion>Mage Solar Stadion</stadion>
+     <player>Oliver Baumann</player>
+     <player>Daniel Batz</player>
+     <player>Alexander Schwolow</player>
+     <player>Pavel Krmas</player>
+     <player>Fallou Diagne</player>
+     <player>Matthias Ginter</player>
+     <player>Immanuel Höhn</player>
+     <player>Christian Günter</player>
+     <player>Vegar Eggen Hedenstad</player>
+     <player>Mensur Mujdza</player>
+     <player>Oliver Sorg</player>
+     <player>Johannes Flum</player>
+     <player>Julian Schuster</player>
+     <player>Marc Lais</player>
+     <player>Cédric Makiadi</player>
+     <player>Karim Guédé</player>
+     <player>Jan Rosenthal</player>
+     <player>Max Kruse</player>
+     <player>Hendrick Zuck</player>
+     <player>Ezequiel Calvente</player>
+     <player>Daniel Caligiuri</player>
+     <player>Jonathan Schmid</player>
+     <player>Ivan Santini</player>
+     <player>Marco Terrazzino</player>
+     <player>Erik Jendrisek</player>
+     <player>Mounir Bouziane</player>
+     <player>Sebastian Freis</player>
+  </Team>
+  <Team>
+     <teamID>95</teamID>
+     <teamName>FC Augsburg</teamName>
+     <teamIconURL>http://www.openligadb.de/images/teamicons/FC_Augsburg.gif</teamIconURL>
+     <stadion>SGL Arena</stadion>
+     <player>Mohamed Amsif</player>
+     <player>Ioannis Gelios</player>
+     <player>Simon Jentzsch</player>
+     <player>Alexander Manninger</player>
+     <player>Jan-Ingwer Callsen-Bracker</player>
+     <player>Ragnar Klavan</player>
+     <player>Sebastian Langkamp</player>
+     <player>Matthias Ostrzolek</player>
+     <player>Michael Parkhurst</player>
+     <player>Ronny Philp</player>
+     <player>Dominik Reinhardt</player>
+     <player>Matthias Strohmaier</player>
+     <player>Paul Verhaegh</player>
+     <player>Daniel Baier</player>
+     <player>Marcel de Jong</player>
+     <player>André Hahn</player>
+     <player>Ja-Cheol Koo</player>
+     <player>Jan Morávek</player>
+     <player>Moritz Nebel</player>
+     <player>Andreas Ottl</player>
+     <player>Milan Petržela</player>
+     <player>Pablo Pigl</player>
+     <player>Somen Tchoyi</player>
+     <player>Marco Thiede</player>
+     <player>Kevin Vogt</player>
+     <player>Tobias Werner</player>
+     <player>Aristide Bancé</player>
+     <player>Stephan Hain</player>
+     <player>Dong-Won Ji</player>
+     <player>Sascha Mölders</player>
+     <player>Knowledge Musona</player>
+     <player>Torsten Oehrl</player>
+  </Team>
+  <Team>
+     <teamID>91</teamID>
+     <teamName>Eintracht Frankfurt</teamName>
+     <teamIconURL>http://www.openligadb.de/images/teamicons/Eintracht_Frankfurt.gif</teamIconURL>
+     <stadion>Commerzbank-Arena</stadion>
+     <player>Oka Nikolov</player>
+     <player>Aykut Özer</player>
+     <player>Kevin Trapp</player>
+     <player>Martin Amedick</player>
+     <player>Bamba Anderson</player>
+     <player>Heiko Butscher</player>
+     <player>Stefano Celozzi</player>
+     <player>Constant Djakpa</player>
+     <player>Julian Dudda</player>
+     <player>Alexander Hien</player>
+     <player>Sebastian Jung</player>
+     <player>Marc-Oliver Kempf</player>
+     <player>Bastian Oczipka</player>
+     <player>Marco Russ</player>
+     <player>Erik Wille</player>
+     <player>Carlos Zambrano</player>
+     <player>Stefan Aigner</player>
+     <player>Takashi Inui</player>
+     <player>Sonny Kittel</player>
+     <player>Martin Lanig</player>
+     <player>Alexander Meier</player>
+     <player>Sebastian Rode</player>
+     <player>Pirmin Schwegler</player>
+     <player>Marc Stendera</player>
+     <player>Srđan Lakić</player>
+     <player>Karim Matmour</player>
+     <player>Olivier Occéan</player>
+  </Team>
+  <Team>
+     <teamID>185</teamID>
+     <teamName>Fortuna Düsseldorf</teamName>
+     <teamIconURL>http://www.openligadb.de/images/teamicons/20x20_fortuna-duesseldorf.png</teamIconURL>
+     <stadion>ESPRIT Arena</stadion>
+     <player>Robert Almer</player>
+     <player>Fabian Giefer</player>
+     <player>Nikolaos Papadopoulos</player>
+     <player>Leon Balogun</player>
+     <player>Stelios Malezas</player>
+     <player>Juanan</player>
+     <player>Jens Langeneke</player>
+     <player>Bruno Soares</player>
+     <player>Martin Latka</player>
+     <player>Cristian Ramírez</player>
+     <player>Johannes van den Bergh</player>
+     <player>Tobias Levels</player>
+     <player>Oliver Fink</player>
+     <player>Adam Bodzek</player>
+     <player>Ivan Paurevic</player>
+     <player>Bastian Müller</player>
+     <player>Robert Tesche</player>
+     <player>Andreas Lambertz</player>
+     <player>Aliosman Aydin</player>
+     <player>Ronny Garbuschewski</player>
+     <player>Tugrul Erat</player>
+     <player>Axel Bellinghausen</player>
+     <player>Jules Schwadorf</player>
+     <player>Mathis Bolly</player>
+     <player>Genki Omae</player>
+     <player>Robbie Kruse</player>
+     <player>Ken Ilsö</player>
+     <player>Andriy Voronin</player>
+     <player>Nando Rafael</player>
+     <player>Gerrit Wegkamp</player>
+     <player>Dani Schahin</player>
+     <player>Stefan Reisinger</player>
+  </Team>
+  <Team>
+     <teamID>79</teamID>
+     <teamName>1. FC Nürnberg</teamName>
+     <teamIconURL>http://www.openligadb.de/images/teamicons/1_FC_Nuernberg.gif</teamIconURL>
+     <stadion>Grundig Stadion</stadion>
+     <player>Max Nawe</player>
+     <player>Patrick Rakovsky</player>
+     <player>Raphael Schäfer</player>
+     <player>Alexander Stephan</player>
+     <player>Benjamin Uphoff</player>
+     <player>Timothy Chandler</player>
+     <player>Berkay Dabanlı</player>
+     <player>Timm Klose</player>
+     <player>Noah Korczowski</player>
+     <player>Marcos António</player>
+     <player>Per Nilsson</player>
+     <player>Javier Pinola</player>
+     <player>Marvin Plattenhardt</player>
+     <player>Niklas Stark</player>
+     <player>Hanno Balitsch</player>
+     <player>Markus Feulner</player>
+     <player>Mike Frantz</player>
+     <player>Timo Gebhart</player>
+     <player>Adam Hloušek</player>
+     <player>Muhammed Ildiz</player>
+     <player>Mu Kanazaki</player>
+     <player>Hiroshi Kiyotake</player>
+     <player>Markus Mendler</player>
+     <player>Timmy Simons</player>
+     <player>Alexander Esswein</player>
+     <player>Róbert Mak</player>
+     <player>Roussel Ngankam</player>
+     <player>Tomáš Pekhart</player>
+     <player>Sebastian Polter</player>
+  </Team>
+  <Team>
+     <teamID>81</teamID>
+     <teamName>1. FSV Mainz 05</teamName>
+     <teamIconURL>http://www.openligadb.de/images/teamicons/1_FSV_Mainz_05.gif</teamIconURL>
+     <stadion>Bruchwegstadion</stadion>
+     <player>Loris Karius</player>
+     <player>Heinz Müller</player>
+     <player>Christian Wetklo</player>
+     <player>Stefan Bell</player>
+     <player>Niko Bungert</player>
+     <player>Júnior Díaz</player>
+     <player>Jan Kirchhoff</player>
+     <player>Nikolče Noveski</player>
+     <player>Zdeněk Pospěch</player>
+     <player>Tobias Schilk</player>
+     <player>Bo Svensson</player>
+     <player>Radoslav Zabavník</player>
+     <player>Julian Baumgartlinger</player>
+     <player>Marco Caligiuri</player>
+     <player>Andreas Ivanschitz</player>
+     <player>Yunus Malli</player>
+     <player>Nicolai Müller</player>
+     <player>Marcel Risse</player>
+     <player>Elkin Soto</player>
+     <player>Niki Zimling</player>
+     <player>Maxim Choupo-Moting</player>
+     <player>Chinedu Ede</player>
+     <player>Ivan Klasnić</player>
+     <player>Shawn Parker</player>
+     <player>Nikita Rukavytsya</player>
+     <player>Petar Slišković</player>
+     <player>Ádám Szalai</player>
+  </Team>
+  <Team>
+     <teamID>115</teamID>
+     <teamName>SpVgg Greuther Fuerth</teamName>
+     <teamIconURL>http://www.openligadb.de/images/teamicons/SpVgg_Greuther_Fuerth.gif</teamIconURL>
+     <stadion>Trolli Arena</stadion>
+     <player>Max Grün</player>
+     <player>Wolfgang Hesl</player>
+     <player>Tom Mickel</player>
+     <player>Issa Ndoye</player>
+     <player>Abdul Rahman Baba</player>
+     <player>Michael Hefele</player>
+     <player>Thomas Kleine</player>
+     <player>Mergim Mavraj</player>
+     <player>Bernd Nehrig</player>
+     <player>Heinrich Schmidtgal</player>
+     <player>Lasse Sobiech</player>
+     <player>Matthias Zimmermann</player>
+     <player>Stephan Fürstner</player>
+     <player>Johannes Geis</player>
+     <player>Felix Klaus</player>
+     <player>Jung-Bin Park</player>
+     <player>Milorad Peković</player>
+     <player>Thanos Petsos</player>
+     <player>Thomas Pledl</player>
+     <player>Edgar Prib</player>
+     <player>Sercan Sararer</player>
+     <player>Zoltán Stieber</player>
+     <player>Florian Trinks</player>
+     <player>Sebastian Tyrała</player>
+     <player>József Varga</player>
+     <player>Robert Zillner</player>
+     <player>Gerald Asamoah</player>
+     <player>Ilir Azemi</player>
+     <player>Nikola Djurdjic</player>
+     <player>Djiby Fall</player>
+     <player>Stefan Lex</player>
+     <player>Christopher Nöthe</player>
+     <player>Franck Ohandza</player>
+     <player>Kingsley Onuegbu</player>
+  </Team>
+  <Team>
+     <teamID>123</teamID>
+     <teamName>TSG 1899 Hoffenheim</teamName>
+     <teamIconURL>http://www.openligadb.de/images/teamicons/TSG_Hoffenheim.gif</teamIconURL>
+     <stadion>Rhein-Neckar Arena</stadion>
+     <player>Koen Casteels</player>
+     <player>Gomes</player>
+     <player>Jens Grahl</player>
+     <player>Tim Wiese</player>
+     <player>David Abraham</player>
+     <player>Andreas Beck</player>
+     <player>Chris</player>
+     <player>Matthieu Delpierre</player>
+     <player>Matthias Jaissle</player>
+     <player>Pelle Jensen</player>
+     <player>Fabian Johnson</player>
+     <player>Patrick Ochs</player>
+     <player>Stefan Thesker</player>
+     <player>Jannik Vestergaard</player>
+     <player>Daniel Williams</player>
+     <player>Afriyie Acquah</player>
+     <player>Luis Advíncula</player>
+     <player>Vincenzo Grifo</player>
+     <player>Filip Malbašić</player>
+     <player>Eugen Polanski</player>
+     <player>Roberto Firmino</player>
+     <player>Sebastian Rudy</player>
+     <player>Sejad Salihović</player>
+     <player>Ahmed Sassi</player>
+     <player>Stephan Schröck</player>
+     <player>Takashi Usami</player>
+     <player>Boris Vukčević</player>
+     <player>Tobias Weis</player>
+     <player>Sandro Wieser</player>
+     <player>Igor de Camargo</player>
+     <player>Eren Derdiyok</player>
+     <player>Michael Gregoritsch</player>
+     <player>Joselu</player>
+     <player>Sven Schipplock</player>
+     <player>Kevin Volland</player>
+  </Team>
+</GetTeamsByLeagueSaisonResult>
