@@ -1,25 +1,12 @@
--- MySQL Workbench Forward Engineering
+
 
 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
 
--- -----------------------------------------------------
--- Schema mydb
--- -----------------------------------------------------
--- -----------------------------------------------------
--- Schema liga
--- -----------------------------------------------------
-
--- -----------------------------------------------------
--- Schema liga
--- -----------------------------------------------------
 CREATE SCHEMA IF NOT EXISTS `liga` DEFAULT CHARACTER SET utf8 ;
 USE `liga` ;
 
--- -----------------------------------------------------
--- Table `liga`.`stadion`
--- -----------------------------------------------------
 DROP TABLE IF EXISTS `liga`.`stadion` ;
 
 CREATE TABLE IF NOT EXISTS `liga`.`stadion` (
@@ -31,13 +18,9 @@ CREATE TABLE IF NOT EXISTS `liga`.`stadion` (
   `s_kapazitaet` INT(11) NULL DEFAULT NULL,
   PRIMARY KEY (`stadion_id`))
 ENGINE = InnoDB
-AUTO_INCREMENT = 19
 DEFAULT CHARACTER SET = utf8;
 
 
--- -----------------------------------------------------
--- Table `liga`.`verein`
--- -----------------------------------------------------
 DROP TABLE IF EXISTS `liga`.`verein` ;
 
 CREATE TABLE IF NOT EXISTS `liga`.`verein` (
@@ -60,10 +43,6 @@ CREATE TABLE IF NOT EXISTS `liga`.`verein` (
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8;
 
-
--- -----------------------------------------------------
--- Table `liga`.`match`
--- -----------------------------------------------------
 DROP TABLE IF EXISTS `liga`.`match` ;
 
 CREATE TABLE IF NOT EXISTS `liga`.`match` (
@@ -71,7 +50,7 @@ CREATE TABLE IF NOT EXISTS `liga`.`match` (
   `m_saison` INT(11) NULL DEFAULT NULL,
   `m_datum` DATETIME NULL DEFAULT NULL,
   `m_zuschauer` INT(11) NULL DEFAULT NULL,
-  `m_schiri` VARCHAR(45) NULL DEFAULT NULL,
+  `m_spieltag` INT(5) NULL DEFAULT NULL,
   `m_stadion` VARCHAR(45) NULL DEFAULT NULL,
   `m_stadionID` VARCHAR(45) NULL DEFAULT NULL,
   `m_endergebnis` VARCHAR(45) NULL DEFAULT NULL,
@@ -96,10 +75,6 @@ CREATE TABLE IF NOT EXISTS `liga`.`match` (
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8;
 
-
--- -----------------------------------------------------
--- Table `liga`.`player`
--- -----------------------------------------------------
 DROP TABLE IF EXISTS `liga`.`player` ;
 
 CREATE TABLE IF NOT EXISTS `liga`.`player` (
@@ -114,13 +89,8 @@ CREATE TABLE IF NOT EXISTS `liga`.`player` (
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB
-AUTO_INCREMENT = 1069
 DEFAULT CHARACTER SET = utf8;
 
-
--- -----------------------------------------------------
--- Table `liga`.`goal`
--- -----------------------------------------------------
 DROP TABLE IF EXISTS `liga`.`goal` ;
 
 CREATE TABLE IF NOT EXISTS `liga`.`goal` (

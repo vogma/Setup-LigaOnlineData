@@ -13,17 +13,17 @@ import manager.ConnectionManager;
 
 public class PersistenceManager {
 
-    private static final String PLAYERSQLSTATEMENT = "INSERT INTO liga.player (p_name,p_verein_id) VALUES (?,?);";
-    private static final String STADIONSQLSTATEMENT = "INSERT INTO liga.stadion (stadion_id,s_name,s_gps,s_adress,s_bildURL,s_kapazitaet) VALUES (?,?,?,?,?,?);";
-    private static final String TEAMSQLSTATEMENT = "INSERT INTO liga.verein (verein_id,v_name,v_logoURL,stadion_stadion_id) VALUES (?,?,?,?);";
-    private static final String MATCHSQLSTATEMENT = "INSERT INTO liga.match (match_id,m_saison,m_stadion,m_stadionID,m_endergebnis,m_halbzeitergebnis,m_punkteHeim,m_punkteGast,m_heimID,m_gastID) VALUES (?,?,?,?,?,?,?,?,?,?);";
-    private static final String GOALSQLSTATEMENT = "INSERT INTO liga.goal (goal_id, g_toreHeim, g_toreGast, g_minute, g_schuetze, match_id, player_id) VALUES (?,?,?,?,?,?,?)";
+    private static final String PLAYERSQL = "INSERT INTO liga.player (p_name,p_verein_id) VALUES (?,?);";
+    private static final String STADIONSQL = "INSERT INTO liga.stadion (stadion_id,s_name,s_gps,s_adress,s_bildURL,s_kapazitaet) VALUES (?,?,?,?,?,?);";
+    private static final String TEAMSQL = "INSERT INTO liga.verein (verein_id,v_name,v_logoURL,stadion_stadion_id) VALUES (?,?,?,?);";
+    private static final String MATCHSQL = "INSERT INTO liga.match (match_id,m_saison,m_stadion,m_stadionID,m_endergebnis,m_halbzeitergebnis,m_punkteHeim,m_punkteGast,m_heimID,m_gastID,m_zuschauer,m_spieltag,m_datum) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?);";
+    private static final String GOALSQL = "INSERT INTO liga.goal (goal_id, g_toreHeim, g_toreGast, g_minute, g_schuetze, match_id, player_id) VALUES (?,?,?,?,?,?,?)";
 
     public static void persistStadions(List<Stadion> stadions) throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException {
         int id = 1;
         try (Connection connection = ConnectionManager.getConnection()) {
             for (Stadion stadion : stadions) {
-                PreparedStatement preparedStatement = connection.prepareStatement(STADIONSQLSTATEMENT);
+                PreparedStatement preparedStatement = connection.prepareStatement(STADIONSQL);
                 preparedStatement.setInt(1, id++);
                 preparedStatement.setString(2, stadion.getStadionName());
                 preparedStatement.setString(3, stadion.getStadionGPS());
@@ -33,32 +33,27 @@ public class PersistenceManager {
                 preparedStatement.execute();
             }
         }
-        System.err.println("Done Stadion");
-
     }
 
     public static void persistPlayer(List<Player> playerList) throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException {
         try (Connection connection = ConnectionManager.getConnection()) {
             for (Player player : playerList) {
-                PreparedStatement preparedStatement = connection.prepareStatement(PLAYERSQLSTATEMENT);
+                PreparedStatement preparedStatement = connection.prepareStatement(PLAYERSQL);
                 preparedStatement.setString(1, player.getName());
                 preparedStatement.setInt(2, player.getTeamID());
                 preparedStatement.execute();
             }
         }
-        System.err.println("Done Player");
-
     }
 
     public static void persistTeams(List<Team> teams) throws SQLException, InstantiationException, IllegalAccessException, ClassNotFoundException {
         try (Connection connection = ConnectionManager.getConnection()) {
             for (Team team : teams) {
-                PreparedStatement preparedStatement = connection.prepareStatement(TEAMSQLSTATEMENT);
+                PreparedStatement preparedStatement = connection.prepareStatement(TEAMSQL);
                 preparedStatement.setInt(1, team.getTeamID());
                 preparedStatement.setString(2, team.getTeamName());
                 preparedStatement.setString(3, team.getTeamIconUrl());
                 preparedStatement.setInt(4, team.getStadionID());
-                System.err.println(preparedStatement);
                 preparedStatement.execute();
             }
         }
@@ -68,7 +63,7 @@ public class PersistenceManager {
     public static void persistMatches(List<Match> matches) throws SQLException, InstantiationException, IllegalAccessException, ClassNotFoundException {
         try (Connection connection = ConnectionManager.getConnection()) {
             for (Match match : matches) {
-                PreparedStatement preparedStatement = connection.prepareStatement(MATCHSQLSTATEMENT);
+                PreparedStatement preparedStatement = connection.prepareStatement(MATCHSQL);
                 preparedStatement.setInt(1, match.getMatchID());
                 preparedStatement.setInt(2, match.getSaison());
                 preparedStatement.setString(3, match.getStadion());
@@ -79,17 +74,18 @@ public class PersistenceManager {
                 preparedStatement.setInt(8, match.getPunkteGast());
                 preparedStatement.setInt(9, match.getHeimID());
                 preparedStatement.setInt(10, match.getGastID());
+                preparedStatement.setInt(11, match.getZuschauer());
+                preparedStatement.setInt(12, match.getSpieltag());
+                preparedStatement.setString(13, match.getDatum());
                 preparedStatement.execute();
             }
         }
-        System.err.println("Done Matches");
-
     }
 
     public static void persistGoals(List<Goal> goals) throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException {
         try (Connection connection = ConnectionManager.getConnection()) {
             for (Goal goal : goals) {
-                PreparedStatement preparedStatement = connection.prepareStatement(GOALSQLSTATEMENT);
+                PreparedStatement preparedStatement = connection.prepareStatement(GOALSQL);
                 //goal_id, g_toreHeim, g_toreGast, g_minute, g_schuetze, match_id, player_id
                 preparedStatement.setInt(1, goal.getGoalID());
                 preparedStatement.setInt(2, goal.getToreHeim());
@@ -103,7 +99,5 @@ public class PersistenceManager {
                 preparedStatement.execute();
             }
         }
-        System.err.println("Done Goals");
-
     }
 }
