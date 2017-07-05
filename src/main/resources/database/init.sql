@@ -1,10 +1,25 @@
+-- MySQL Workbench Forward Engineering
+
 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
 
+-- -----------------------------------------------------
+-- Schema mydb
+-- -----------------------------------------------------
+-- -----------------------------------------------------
+-- Schema liga
+-- -----------------------------------------------------
+
+-- -----------------------------------------------------
+-- Schema liga
+-- -----------------------------------------------------
 CREATE SCHEMA IF NOT EXISTS `liga` DEFAULT CHARACTER SET utf8 ;
 USE `liga` ;
 
+-- -----------------------------------------------------
+-- Table `liga`.`stadion`
+-- -----------------------------------------------------
 DROP TABLE IF EXISTS `liga`.`stadion` ;
 
 CREATE TABLE IF NOT EXISTS `liga`.`stadion` (
@@ -19,6 +34,9 @@ ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8;
 
 
+-- -----------------------------------------------------
+-- Table `liga`.`verein`
+-- -----------------------------------------------------
 DROP TABLE IF EXISTS `liga`.`verein` ;
 
 CREATE TABLE IF NOT EXISTS `liga`.`verein` (
@@ -41,9 +59,13 @@ CREATE TABLE IF NOT EXISTS `liga`.`verein` (
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8;
 
-DROP TABLE IF EXISTS `liga`.`match` ;
 
-CREATE TABLE IF NOT EXISTS `liga`.`match` (
+-- -----------------------------------------------------
+-- Table `liga`.`matches`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `liga`.`matches` ;
+
+CREATE TABLE IF NOT EXISTS `liga`.`matches` (
   `match_id` INT(11) NOT NULL,
   `m_saison` INT(11) NULL DEFAULT NULL,
   `m_datum` DATETIME NULL DEFAULT NULL,
@@ -73,6 +95,10 @@ CREATE TABLE IF NOT EXISTS `liga`.`match` (
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8;
 
+
+-- -----------------------------------------------------
+-- Table `liga`.`player`
+-- -----------------------------------------------------
 DROP TABLE IF EXISTS `liga`.`player` ;
 
 CREATE TABLE IF NOT EXISTS `liga`.`player` (
@@ -89,6 +115,10 @@ CREATE TABLE IF NOT EXISTS `liga`.`player` (
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8;
 
+
+-- -----------------------------------------------------
+-- Table `liga`.`goal`
+-- -----------------------------------------------------
 DROP TABLE IF EXISTS `liga`.`goal` ;
 
 CREATE TABLE IF NOT EXISTS `liga`.`goal` (
@@ -106,7 +136,7 @@ CREATE TABLE IF NOT EXISTS `liga`.`goal` (
   INDEX `fk_goal_player1_idx` (`player_player_id` ASC),
   CONSTRAINT `fk_goal_match1`
     FOREIGN KEY (`match_match_id`)
-    REFERENCES `liga`.`match` (`match_id`)
+    REFERENCES `liga`.`matches` (`match_id`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_goal_player1`
@@ -116,6 +146,59 @@ CREATE TABLE IF NOT EXISTS `liga`.`goal` (
     ON UPDATE NO ACTION)
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8;
+
+
+-- -----------------------------------------------------
+-- Table `liga`.`group`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `liga`.`group` ;
+
+CREATE TABLE IF NOT EXISTS `liga`.`group` (
+  `groupid` INT(11) NOT NULL AUTO_INCREMENT,
+  `groupName` VARCHAR(45) NOT NULL,
+  `description` VARCHAR(45) NULL DEFAULT NULL,
+  PRIMARY KEY (`groupid`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8;
+
+
+-- -----------------------------------------------------
+-- Table `liga`.`user`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `liga`.`user` ;
+
+CREATE TABLE IF NOT EXISTS `liga`.`user` (
+  `userid` INT(11) NOT NULL AUTO_INCREMENT,
+  `userName` VARCHAR(45) NOT NULL,
+  `userPassword` VARCHAR(255) NOT NULL,
+  PRIMARY KEY (`userid`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8;
+
+
+-- -----------------------------------------------------
+-- Table `liga`.`user_group`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `liga`.`user_group` ;
+
+CREATE TABLE IF NOT EXISTS `liga`.`user_group` (
+  `group_groupid` INT(11) NOT NULL,
+  `user_userid` INT(11) NOT NULL,
+  INDEX `fk_user_group_group1_idx` (`group_groupid` ASC),
+  INDEX `fk_user_group_user1_idx` (`user_userid` ASC),
+  CONSTRAINT `fk_user_group_group1`
+    FOREIGN KEY (`group_groupid`)
+    REFERENCES `liga`.`group` (`groupid`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_user_group_user1`
+    FOREIGN KEY (`user_userid`)
+    REFERENCES `liga`.`user` (`userid`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8;
+
 
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;

@@ -15,7 +15,7 @@ public class PersistenceManager {
     private static final String PLAYERSQL = "INSERT INTO liga.player (p_name,p_verein_id) VALUES (?,?);";
     private static final String STADIONSQL = "INSERT INTO liga.stadion (stadion_id,s_name,s_gps,s_adress,s_bildURL,s_kapazitaet) VALUES (?,?,?,?,?,?);";
     private static final String TEAMSQL = "INSERT INTO liga.verein (verein_id,v_name,v_logoURL,stadion_stadion_id) VALUES (?,?,?,?);";
-    private static final String MATCHSQL = "INSERT INTO liga.match (match_id,m_saison,m_stadion,m_stadionID,m_endergebnis,m_halbzeitergebnis,m_punkteHeim,m_punkteGast,m_heimID,m_gastID,m_zuschauer,m_spieltag,m_datum) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?);";
+    private static final String MATCHSQL = "INSERT INTO liga.matches (match_id,m_saison,m_stadion,m_stadionID,m_endergebnis,m_halbzeitergebnis,m_punkteHeim,m_punkteGast,m_heimID,m_gastID,m_zuschauer,m_spieltag,m_datum) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?);";
     private static final String GOALSQL = "INSERT INTO liga.goal (goal_id, g_toreHeim, g_toreGast, g_minute, g_schuetze, match_match_id, player_player_id) VALUES (?,?,?,?,?,?,?)";
 
     public static void persistStadions(List<Stadion> stadions) throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException {

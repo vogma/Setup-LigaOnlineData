@@ -7,17 +7,18 @@ import java.sql.Connection;
 public class ConnectionManager
 {
 
-	private static Connection connection;
+    private static Connection connection;
 
-	private ConnectionManager()
-	{
-	}
+    private ConnectionManager()
+    {
+    }
 
-	public static Connection getConnection() throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException
-	{
-		Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
-		String connectionCommand = "jdbc:mysql://localhost/?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&autoReconnect=true&useSSL=false&user=root&password=root";
-		connection = DriverManager.getConnection(connectionCommand);
-		return connection;
-	}
+    public static Connection getConnection() throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException
+    {
+        Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
+        String connectionCommand = "jdbc:mysql://localhost/?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&autoReconnect=true&useSSL=false&user=root&password=root";
+        connection = DriverManager.getConnection(connectionCommand);
+        System.err.println("Creating Connection...");
+        return connection;
+    }
 }
